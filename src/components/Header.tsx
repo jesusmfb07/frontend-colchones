@@ -17,17 +17,17 @@ export default function Header({ onCartClick }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
       {/* Top Bar */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-500 text-white py-2 px-4 text-center text-sm">
+      <div className="bg-gradient-to-r from-blue-700 to-blue-600 text-white py-2 px-4 text-center text-sm">
         Envío Gratuito en compras mayores a S/ 500
       </div>
 
       {/* Main Navigation */}
       <div className="max-w-7xl mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
+        <div className="grid grid-cols-3 items-center">
           {/* Logo */}
-          <div className="flex-1">
-            <h1 className="text-2xl font-bold text-blue-600">MAX</h1>
-            <p className="text-xs text-gray-600">COLCHÓN</p>
+          <div className="flex flex-col items-start">
+            <h1 className="text-2xl font-bold text-blue-600">J y E</h1>
+            <h1 className="text-xs text-gray-600 -mt-1">COLCHONES</h1>
           </div>
 
           {/* Desktop Menu */}
